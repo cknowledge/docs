@@ -23,11 +23,11 @@ sys.path.insert(0, os.path.abspath('.'))
 
 # -- Project information -----------------------------------------------------
 
-project = u'Collective Knowledge'
+project = u'Collective Knowledge platform'
 copyright = u'2015-2020 Grigori Fursin and the cTuning foundation'
 author = u'Grigori Fursin'
 
-version='20200420'
+version='1.3.1'
 release=version
 
 edit_on_github_url='https://github.com'
