@@ -164,6 +164,9 @@ You can specify extra options describing your component:
  --source TEXT
 ```
 
+You can mark your component as permanent using the flag "--permanent".
+In such case, it will be impossible to delete it (concept similar to Zenodo, FigShare and other permanent archives).
+
 You can make this component private by specifying the flag "--private". 
 In such case, it will be only visible to you.
 
@@ -191,6 +194,22 @@ cb versions {module name}:{data name}
 ```
 cb open {module name}:{data name}
 ```
+
+### Delete components
+
+*Delete CK components on the cKnowledge portal.*
+
+
+```
+cb delete --help
+```
+
+You can delete your own components if they are not marked permanent as follows:
+
+```
+cb delete {module name}:{data name}
+```
+
 
 ## cKnowledge dashboards
 
